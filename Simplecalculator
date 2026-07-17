@@ -6,6 +6,7 @@ public class calculator {
     int a=sc.nextInt();
      System.out.println("Enter B value:");
     int b=sc.nextInt();
+    float c=a/b;
     System.out.println("---ADDITION---");
     System.out.println(a+" + "+b+" = "+(a+b));
     System.out.println("---SUBRACTION---");
@@ -13,7 +14,7 @@ public class calculator {
     System.out.println("---MULTIPLICATION---");
     System.out.println(a+" x "+b+" = "+(a*b));
     System.out.println("---DIVITION---");
-    System.out.println(a+" / "+b+" = "+(a/b));
+    System.out.println(a+" / "+b+" = "+c);
     
     }
 }
